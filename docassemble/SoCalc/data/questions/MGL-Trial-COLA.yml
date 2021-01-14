@@ -1,0 +1,37 @@
+---
+features:
+  loop limit: 20
+  recursion limit: 20
+  cache documents: False
+---
+include:
+  - z1-questions.yml
+  - z1-variables.yml
+---
+reconsider:
+  - the_file
+event: ReturnDoc
+code: |
+  response(file=the_file.docx, content_type='application/msword')
+---
+code: |
+  MIL = JoinAmend
+  JointStatFiling= PlaIDExperts
+  Resp2MIL = DftIDExperts
+  Repl2MIL = Custodian
+  TrialBriefs = Discovery
+  Req2Charge = LimineDate
+  ListOfJurors = OtherMotion
+  JSumQstAvail = Mediation
+  StrikesSubmitted = PretrialBriefs
+reconsider: True
+---
+attachment:
+  name: A file
+  file: mglTrialCOLA.docx
+  variable name: the_file
+  filename: MGL-Trial-COLA
+  valid formats: 
+    - docx
+  docx template file: MGL-trial-COLA.docx
+---

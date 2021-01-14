@@ -1,0 +1,25 @@
+---
+features:
+  loop limit: 20
+  recursion limit: 20
+  cache documents: False
+---
+include:
+  - z1-questions.yml
+  - z1-variables.yml
+---
+reconsider:
+  - the_file
+event: ReturnDoc
+code: |
+  response(file=the_file.docx, content_type='application/msword')
+---
+attachment:
+  name: A file
+  file: PJG-prose-CMC.docx
+  variable name: the_file
+  filename: PJG-prose-CMC
+  valid formats: 
+    - docx
+  docx template file: PJG-prose-CMC.docx
+---

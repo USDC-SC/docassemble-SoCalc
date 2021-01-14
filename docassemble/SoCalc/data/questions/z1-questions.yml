@@ -1,0 +1,95 @@
+---
+question: Please enter the following missing information
+fields:
+  - CaseNum: CaseNum 
+---
+question: Please enter the following missing information
+fields:
+  - Division: Division 
+---
+question: Please enter the following missing information
+fields:
+  - DefendantName: DefendantName 
+---
+question: Please enter the following missing information
+fields:
+  - ProsecutorName: ProsecutorName 
+---
+question: Please enter the following missing information
+fields:
+  - OrdIssDate: OrderIssued   
+---
+question: Please enter the following missing information
+fields:
+  - ConfDate: Conference  
+---
+question: Please enter the following missing information
+fields:
+  - InitDate: InitialDisc  
+---
+question: Please enter the following missing information
+fields:
+  - JoinDate: JoinAmend  
+---
+question: Please enter the following missing information
+fields:
+  - PlaDate: PlaIDExperts  
+---
+question: Please enter the following missing information
+fields:
+  - DftDate: DftIDExperts  
+---
+question: Please enter the following missing information
+fields:
+  - CustDate: Custodian  
+---
+question: Please enter the following missing information
+fields:
+  - DiscDate: Discovery  
+---
+question: Please enter the following missing information
+fields:
+  - LimineDate: LimineDate 
+---
+question: Please enter the following missing information
+fields:
+  - OtherDate: OtherMotion 
+---
+question: Please enter the following missing information
+fields:
+  - MediationDate: Mediation 
+---
+question: Please enter the following missing information
+fields:
+  - PretrialDate: PretrialBriefs 
+---
+question: Please enter the following missing information
+fields:
+  - JurySelDate: JurySelDate 
+---
+question: Please enter the following missing information
+fields:
+  - ADRDate: ADRDate 
+---
+question: Please enter the following missing information
+fields:
+  - FirstAppDate: FirstAppear
+---
+question: Please enter the following missing information
+fields:
+  - AnswerDate: AnswerDate 
+---
+question: Please enter the following missing information
+fields:
+  - DiscRptDate: DiscoveryReport 
+---
+question: Please enter the following missing information
+fields:
+  - PlaDftT2Date: PlaDftT2Date 
+---
+question: Please enter the following missing information
+fields:
+  - ReportFilingDate: ReportFiling 
+---
+code: |
+  Today = today() 

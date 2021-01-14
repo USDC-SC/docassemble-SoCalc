@@ -1,0 +1,28 @@
+---
+features:
+  loop limit: 20
+  recursion limit: 20
+  cache documents: False
+---
+include:
+  - z1-questions.yml
+  - z1-variables.yml
+---
+reconsider:
+  - the_file
+event: ReturnDoc
+code: |
+  response(file=the_file.docx, content_type='application/msword')
+---
+code: |
+  DispMotions = OtherMotion
+---
+attachment:
+  name: A file
+  file: jfasched.docx
+  variable name: the_file
+  filename: JFA-SchedOrder
+  valid formats: 
+    - docx
+  docx template file: JFA-so.docx
+---
