@@ -43,7 +43,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.SoCalc',
-      version='1.0.0',
+      version='1.0.2',
       description=('Scheduling Order Document Maker'),
       long_description='Scheduling Order Calcualtor\r\n1.0.0\r\n-renamed docx files for a consistent naming convention\r\n\r\nScheduling Order Calcualtor\r\n- RMG-sched\r\n- BHH-sched\r\n- DCN-sched\r\n- MBS-sched\r\n- default\r\n\r\n0.0.5 \r\n  -Updated URL Terms from So-Calc Application\r\n  \r\n0.0.6\r\n  -Ben recommendation for Reconsider variable be set\r\n  -include file adds all the backup questions to the document\r\n  -include file for Variable declaration\r\n  \r\n0.08\r\n  -Changed Variable names to be easier to understand in future documents\r\n  0.081\r\n    -added MGL, MGB, and PJG\r\n  0.082\r\n    -added JMS, SAL, TLW, TMC\r\n  0.083\r\n    - add DCC, CMC, HMA, JFA, MGL-trial, more PJG, RBH, TLW, SAL-trial\r\n    - KFM files created but will not be uploaded\r\n  0.084 \r\n    -add Magistrates: PJG, SVH, MGB, KDW, TER\r\n    -added JDA\r\n  0.085\r\n    -add ProSe for SVH\r\n    -add ProSe-MBS for PJG\r\n  0.086\r\n    -added SO for MHC',
       long_description_content_type='text/markdown',
