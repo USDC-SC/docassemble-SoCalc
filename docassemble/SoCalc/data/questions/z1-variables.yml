@@ -28,7 +28,7 @@ code: |
   OtherMotion = format_date(OtherMotion, format='long')
   Mediation = url_args.get('MediationDate', '12/31/1999')
   Mediation = format_date(Mediation, format='long')
-  PretrialBriefs = url_args.get('PretiralBriefsDate', '12/31/1999')
+  PretrialBriefs = url_args.get('PretrialBriefsDate', '12/31/1999')
   PretrialBriefs = format_date(PretrialBriefs, format='long')
   JurySelDate = url_args.get('JurySelectionDate', '12/31/1999')
   JurySelDate = format_date(JurySelDate, format='long')
