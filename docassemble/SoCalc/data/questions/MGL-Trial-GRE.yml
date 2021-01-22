@@ -14,17 +14,6 @@ event: ReturnDoc
 code: |
   response(file=the_file.docx, content_type='application/msword')
 ---
-code: |
-  MIL = OrderIssued
-  JointStatFiling= PlaIDExperts
-  Resp2MIL = DftIDExperts
-  Repl2MIL = Custodian
-  TrialBriefs = Discovery
-  Req2Charge = LimineDate
-  ListOfJurors = OtherMotion
-  JSumQstAvail = Mediation
-  StrikesSubmitted = PretrialBriefs
----
 attachment:
   name: A file
   file: mglTrialGRE.docx
