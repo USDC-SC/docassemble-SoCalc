@@ -14,18 +14,6 @@ event: ReturnDoc
 code: |
   response(file=the_file.docx, content_type='application/msword')
 ---
-code: |
-  MIL = JoinAmend
-  JointStatFiling= PlaIDExperts
-  Resp2MIL = DftIDExperts
-  Repl2MIL = Custodian
-  TrialBriefs = Discovery
-  Req2Charge = LimineDate
-  ListOfJurors = OtherMotion
-  JSumQstAvail = Mediation
-  StrikesSubmitted = PretrialBriefs
-reconsider: True
----
 attachment:
   name: A file
   file: mglTrialCOLA.docx
