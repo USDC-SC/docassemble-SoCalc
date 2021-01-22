@@ -46,7 +46,7 @@ code: |
   ReportFiling = format_date(ReportFiling, format='long')
   MIL = url_args.get('MotionInLimine', '12/31/1999')
   MIL = format_date(MIL, format='long')
-  JointStatFiling = url_args.get('JointStatFiling', '12/31/1999')
+  JointStatFiling = url_args.get('JointStatusReport', '12/31/1999')
   JointStatFiling = format_date(JointStatFiling, format='long')
   Resp2MIL = url_args.get('ResponseToMIL', '12/31/1999')
   Resp2MIL = format_date(Resp2MIL, format='long')
