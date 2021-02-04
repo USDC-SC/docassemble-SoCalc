@@ -16,10 +16,10 @@ code: |
 ---
 attachment:
   name: A file
-  file: PJG-Sched.docx
+  file: PJG-Prison.docx
   variable name: the_file
-  filename: PJG-Sched
+  filename: PJG-Prison
   valid formats: 
     - docx
-  docx template file: PJG-so-MBS.docx
+  docx template file: PJG-prison.docx
 ---
