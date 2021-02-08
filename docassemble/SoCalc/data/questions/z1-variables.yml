@@ -1,6 +1,7 @@
 ---
 mandatory: true
 code: |
+  DocumentName = url_args.get('DocName', 'defaultDump.docx')
   CaseNum = url_args.get('CaseNumber', 'unknown')
   Division = url_args.get('Division', 'Districtwide')
   Division = Division.upper()
